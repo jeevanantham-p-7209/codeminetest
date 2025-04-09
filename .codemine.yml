@@ -11,4 +11,4 @@ jobs:
     timeout: 30
     parameters:
       approvers:
-      - arunprasad.d+cmdev_3@zohotest.com
+      - jeevanantham.p+cmdev_15@zohotest.com
