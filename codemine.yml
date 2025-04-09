@@ -1,0 +1,14 @@
+version: 1.0
+stages:
+  stage2:
+    jobs:
+    - - antgithub1
+
+jobs:
+  antgithub1:
+    description: source cloning job
+    type: approval-wait
+    timeout: 30
+    parameters:
+      approvers:
+      - arunprasad.d+cmdev_3@zohotest.com
